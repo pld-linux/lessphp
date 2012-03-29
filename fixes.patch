@@ -1,13 +1,12 @@
---- lessphp-0.2.0/plessc~	2010-03-05 10:09:07.000000000 +0200
-+++ lessphp-0.2.0/plessc	2011-03-29 21:57:35.707217625 +0300
-@@ -1,14 +1,11 @@
+--- lessphp-0.3.3/plessc~	2012-03-29 19:29:31.000000000 +0300
++++ lessphp-0.3.3/plessc	2012-03-29 19:30:00.205475415 +0300
+@@ -1,13 +1,10 @@
 -#!/usr/bin/php -q
 +#!/usr/bin/php
  <?php
  //
  // command line utility to compile less to stdout
  // leaf corcoran <leafo.net>
- $VERSION = "v0.1.6";
  
 -error_reporting(E_ALL);
 -$path  = realpath(dirname(__FILE__)).'/';
@@ -15,8 +14,8 @@
 -require $path."lessc.inc.php";
 +require_once "lessc.inc.php";
  
- $fa = "Fatal Error: ";
- function err($msg) {
+ $VERSION = lessc::$VERSION;
+ 
 @@ -65,7 +62,7 @@
  }
  
