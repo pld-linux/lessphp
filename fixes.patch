@@ -2,7 +2,7 @@
 +++ lessphp-0.3.9/./plessc	2013-11-14 20:37:09.986558441 +0200
 @@ -1,4 +1,4 @@
 -#!/usr/bin/env php
-++#!/usr/bin/php
++#!/usr/bin/php
  <?php
  // Command line utility to compile LESS to STDOUT
  // Leaf Corcoran <leafot@gmail.com>, 2012
