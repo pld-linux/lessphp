@@ -1,11 +1,11 @@
 Summary:	lessphp is a compiler for LESS written in PHP
 Name:		lessphp
-Version:	0.3.9
-Release:	2
+Version:	0.4.0
+Release:	1
 License:	MIT/GPL v3
 Group:		Applications
 Source0:	http://leafo.net/lessphp/src/%{name}-%{version}.tar.gz
-# Source0-md5:	a387e3e8a1fcfc84e261d39feaa46668
+# Source0-md5:	e97880d9b52a150dc1d61ff484217049
 Patch0:		fixes.patch
 URL:		http://leafo.net/lessphp/
 BuildArch:	noarch
