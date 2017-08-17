@@ -2,12 +2,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	lessphp is a compiler for LESS written in PHP
 Name:		lessphp
-Version:	0.5.0
-Release:	2
+Version:	0.5.1
+Release:	1
 License:	MIT/GPL v3
 Group:		Applications
-Source0:	https://github.com/leafo/lessphp/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	85fc1d7734e4e146566681418c69ead6
+Source0:	https://github.com/marcusschwarz/lesserphp/archive/v%{version}/lesserphp-%{version}.tar.gz
+# Source0-md5:	d10869d75c1468b0e918a538f58076f1
 Patch0:		fixes.patch
 URL:		http://leafo.net/lessphp/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -25,7 +25,7 @@ language that adds many additional features seen in other languages.
 It is based off an original Ruby implementation called LESS.
 
 %prep
-%setup -q
+%setup -q -n lesserphp-%{version}
 %patch0 -p1
 
 %install

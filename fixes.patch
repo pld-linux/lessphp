@@ -18,9 +18,3 @@
  
  $VERSION = lessc::$VERSION;
  
-@@ -213,5 +210,3 @@
- 	err($fa.$ex->getMessage());
- 	exit(1);
- }
--
--?>
