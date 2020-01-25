@@ -1,5 +1,4 @@
 %define		php_min_version 5.1.0
-%include	/usr/lib/rpm/macros.php
 Summary:	lessphp is a compiler for LESS written in PHP
 Name:		lessphp
 Version:	0.5.1
