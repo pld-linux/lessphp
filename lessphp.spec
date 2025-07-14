@@ -25,7 +25,7 @@ It is based off an original Ruby implementation called LESS.
 
 %prep
 %setup -q -n lesserphp-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
